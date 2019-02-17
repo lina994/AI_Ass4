@@ -23,8 +23,8 @@ Using the following principles:
       pi  = (1 - qi) = 0.6 * 1/w(e).
 
 * There are people at vertex v, with noisy or distributions given all the edge blockages at all edges incident on v, with:
-      pi = (1 - qi) = 0.8   for an edge with weight greater then 4.
-      pi = (1 - qi) = 0.4   for shorter edges.
+        pi = (1 - qi) = 0.8   for an edge with weight greater then 4.
+        pi = (1 - qi) = 0.4   for shorter edges.
 * All noisy-or node have a leakage probability of 0.001, that is, they are true with probability 0.001 when all the causes are inactive.
 
 ### types of BN nodes
@@ -40,9 +40,9 @@ Using the following principles:
 file.txt file include graph description and parameters such as P(Fl(v)=true))
 For example:
 
-    #T 4                 ; number of vertices n in graph (from 1 to n)
-    #V 1 F 0.2        ; Vertex 1, probability flooding 0.2
-    #V 2 F 0.4        ; Vertex 2, probability flooding 0.4
+    #T 4           ; number of vertices n in graph (from 1 to n)
+    #V 1 F 0.2     ; Vertex 1, probability flooding 0.2
+    #V 2 F 0.4     ; Vertex 2, probability flooding 0.4
     #E1 1 2 W1     ; Edge1 between vertices 1 and 2, weight 1
     #E2 2 3 W3     ; Edge2 between vertices 2 and 3, weight 3
     #E3 3 4 W3     ; Edge3 between vertices 3 and 4, weight 3
