@@ -23,8 +23,8 @@ Using the following principles:
       pi  = (1 - qi) = 0.6 * 1/w(e).
 
 * There are people at vertex v, with noisy or distributions given all the edge blockages at all edges incident on v, with:
-        pi = (1 - qi) = 0.8   for an edge with weight greater then 4.
-        pi = (1 - qi) = 0.4   for shorter edges.
+        * pi = (1 - qi) = 0.8   for an edge with weight greater then 4.
+        * pi = (1 - qi) = 0.4   for shorter edges.
 * All noisy-or node have a leakage probability of 0.001, that is, they are true with probability 0.001 when all the causes are inactive.
 
 ### types of BN nodes
