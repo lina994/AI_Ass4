@@ -7,7 +7,7 @@ public class E_node extends Node {
         this.vertex = v;
         this.type = 3;
     }
-    
+
     // copy constructor
     public E_node(E_node eNode) {
         super(eNode.indexInNetwork);
