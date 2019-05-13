@@ -5,6 +5,7 @@ Probabilistic reasoning using Bayes networks, with scenarios similar to the hurr
 Using the following principles:
 
 * Artificial Intelligence:
+    * Reasoning under uncertainty
     * Bayesian Networks
     * Enumeration (Enumeration Ask and Enumerate All)
     * Probability Reasoning
@@ -20,7 +21,7 @@ Using the following principles:
 * Binary variable B(e) standing in for "blocked" for each edge e.
 * The flooding events are assumed independent, with known distributions.
 * The blockages are noisy-or distributed given the flooding at incident vertices, with
-      pi  = (1 - qi) = 0.6 * 1/w(e).
+    * pi  = (1 - qi) = 0.6 * 1/w(e).
 
 * There are people at vertex v, with noisy or distributions given all the edge blockages at all edges incident on v, with:
     * pi = (1 - qi) = 0.8   for an edge with weight greater then 4.
